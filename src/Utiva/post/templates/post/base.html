@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	{% block title %}
+
+	<title> My first app</title>
+
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+	{% endblock%}
+</head>
+<body>
+{% block body %}
+
+<!-- The navigational bar -->
+
+<div class="flex justify-between px-3 py-4 bg-white shadow-md">
+	
+<div>
+	
+	<span class="text-purple-800 text-lg tracking-wider"> Utiva</span>
+
+</div>
+
+<div class="flex">
+
+	<div>
+			
+		<a href=""  class="text-gray-900 px-2 text-md tracking-wider"> Home</a>	
+
+		<a href=""  class="text-gray-900 px-2 text-md tracking-wider"> Profile</a>	
+			
+	
+
+	</div>
+
+
+	
+
+	
+</div>
+
+
+</div>
+
+<!-- End of the navigational bar -->
+
+
+{% endblock%}
+</body>
+</html>
